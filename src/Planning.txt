@@ -1,0 +1,27 @@
+Game:
+1. Ska kontrollera BoardView(huvudprogram).
+2. Ska innehålla Main metoden/spellogiken.
+
+BoardView:
+1. Grafiska gränssnittet.
+2. Markerar den aktiva spelaren.
+3. Rita ut korten/vänder på korten när någon trycker på det.
+   Representerat som en subklass till JButton.
+4. Blandar korten och tilldelar dem till en knapp.
+5. Skapa en funktion som kallas check som kontrollerar vilken spelare som
+vänt ett kort.
+6. Ger poäng till spelare.
+
+Player:
+1. Om en spelare är aktiv eller inaktiv (boolean).
+2. Räknar poäng (int).
+3. Namn på spelare(String).
+
+Card:
+1. Vilka knappar som finns.
+2. Vilka frukter/bilder som finns.
+3. Kort/bild som kan vändas, om kortet är "öppet"/visas eller inte.
+4. Vilken spelare som "öppnat"/vänt kortet.
+
+Visibility:
+1. Vi har planerat att ta bort denna klassen för att minska antalet arrays på BoardView.
